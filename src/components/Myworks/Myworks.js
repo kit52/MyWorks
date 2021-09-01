@@ -19,18 +19,18 @@ const Item = (props) => {
             </div>
             <div className={s.item__list}>
                 <ul>
-                    <li>Стек:</li>
+                    <li>Stack:</li>
                     {arr}
                 </ul>
             </div>
         </div>
         <div className={s.item__links}>
             <div className={s.item__code}>
-                Код <a className={s.item__codeLink} rel="noreferrer" href={props.code} target="_blank">ТУТ</a>
+                Code <a className={s.item__codeLink} rel="noreferrer" href={props.code} target="_blank">HERE</a>
             </div>
 
             <a rel="noreferrer" className={s.item__btn} target="_blank" href={props.link}>
-                На Github pages <img src={rigth} className={s.item__btn_img} alt="rigth" />
+                on Github pages <img src={rigth} className={s.item__btn_img} alt="rigth" />
             </a>
         </div>
     </div>
@@ -51,7 +51,7 @@ const Myworks = () => {
         </div>
         <div className={s.content}>
             <Item img={sntwk}
-                link={"https://kit52.github.io/sntwk/"}
+                link={"https://test3-54cf0.web.app"}
                 code={"https://github.com/kit52/sntwk"}
                 stack={["- React", "- Redux", "- Redux-Thunk", "- Firebase", "- Firestore", "- JavaScript", "- Html", "- CSS"]} />
             <Item img={diplom}

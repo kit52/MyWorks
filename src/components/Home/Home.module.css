@@ -91,4 +91,8 @@ h1 {
   .home__img img {
     display: none;
   }
+  .home__content {
+    width: 80%;
+    margin-right: 32px;
+  }
 }

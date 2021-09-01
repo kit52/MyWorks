@@ -10,16 +10,16 @@ const Home = () => {
             <img src={Man} className={s.home__img} alt="man" />
         </div>
         <div className={s.home__content}>
-            <h1>Привет, друг!</h1>
+            <h1>Hellow !</h1>
             <div>
                 <p>
-                    Меня зовут Алексей. Я — начинающий fontend-developer.
-                    Специально для тебя собрал все свои работы в одном месте. Нажми на кнопку ниже и сам всё увидишь!
+                    My name is Alexey. I am a junior fontend-developer.
+                    I have collected all my works in one place especially for you. Click on the button below and you will see everything for yourself!
                 </p>
             </div>
             <div>
                 <NavLink className={s.home__btn} to="/Myworks">
-                    Смотреть портфолио <img src={rigth} className={s.home__btn_img} alt="rigth" />
+                    View portfolio <img src={rigth} className={s.home__btn_img} alt="rigth" />
                 </NavLink>
             </div>
         </div>

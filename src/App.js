@@ -10,18 +10,19 @@ function App() {
   let transitions = useTransition(location, {
     from: {
       opacity: 0,
-      transform: "scale(0)",
-      transition: " 1s"
+      transform: "translateX(100%)",
+
+      transition: " 2s"
     },
     enter: {
       opacity: 1,
-      transform: "scale(1)",
-      transition: " 1s"
+      transform: "translateX(0%)",
+      transition: " 2s"
     },
     leave: {
       opacity: 0,
-      transform: "scale(0)",
-      transition: " 1s"
+      transform: "translateX(-100%)",
+      transition: " 2s"
     }
   })
 
