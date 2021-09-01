@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/MyWorks/static/css/main.135c90b3.chunk.css",
-    "main.js": "/MyWorks/static/js/main.12def65c.chunk.js",
-    "main.js.map": "/MyWorks/static/js/main.12def65c.chunk.js.map",
+    "main.css": "/MyWorks/static/css/main.9f8aba21.chunk.css",
+    "main.js": "/MyWorks/static/js/main.b4f5a90d.chunk.js",
+    "main.js.map": "/MyWorks/static/js/main.b4f5a90d.chunk.js.map",
     "runtime-main.js": "/MyWorks/static/js/runtime-main.7ae38d3e.js",
     "runtime-main.js.map": "/MyWorks/static/js/runtime-main.7ae38d3e.js.map",
     "static/js/2.d9db4716.chunk.js": "/MyWorks/static/js/2.d9db4716.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.d2735d7f.chunk.js": "/MyWorks/static/js/3.d2735d7f.chunk.js",
     "static/js/3.d2735d7f.chunk.js.map": "/MyWorks/static/js/3.d2735d7f.chunk.js.map",
     "index.html": "/MyWorks/index.html",
-    "static/css/main.135c90b3.chunk.css.map": "/MyWorks/static/css/main.135c90b3.chunk.css.map",
+    "static/css/main.9f8aba21.chunk.css.map": "/MyWorks/static/css/main.9f8aba21.chunk.css.map",
     "static/js/2.d9db4716.chunk.js.LICENSE.txt": "/MyWorks/static/js/2.d9db4716.chunk.js.LICENSE.txt",
     "static/media/Rigth.6c9c0a5d.svg": "/MyWorks/static/media/Rigth.6c9c0a5d.svg",
     "static/media/crossing.b28a1855.png": "/MyWorks/static/media/crossing.b28a1855.png",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.7ae38d3e.js",
     "static/js/2.d9db4716.chunk.js",
-    "static/css/main.135c90b3.chunk.css",
-    "static/js/main.12def65c.chunk.js"
+    "static/css/main.9f8aba21.chunk.css",
+    "static/js/main.b4f5a90d.chunk.js"
   ]
 }
