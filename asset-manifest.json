@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MyWorks/static/css/main.9f8aba21.chunk.css",
-    "main.js": "/MyWorks/static/js/main.703475f1.chunk.js",
-    "main.js.map": "/MyWorks/static/js/main.703475f1.chunk.js.map",
+    "main.js": "/MyWorks/static/js/main.b5061310.chunk.js",
+    "main.js.map": "/MyWorks/static/js/main.b5061310.chunk.js.map",
     "runtime-main.js": "/MyWorks/static/js/runtime-main.7ae38d3e.js",
     "runtime-main.js.map": "/MyWorks/static/js/runtime-main.7ae38d3e.js.map",
     "static/js/2.d9db4716.chunk.js": "/MyWorks/static/js/2.d9db4716.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/man.71629df5.svg": "/MyWorks/static/media/man.71629df5.svg",
     "static/media/phone-call.48d8b122.svg": "/MyWorks/static/media/phone-call.48d8b122.svg",
     "static/media/porten.a35e420b.png": "/MyWorks/static/media/porten.a35e420b.png",
+    "static/media/portfolio.4c953cf8.png": "/MyWorks/static/media/portfolio.4c953cf8.png",
     "static/media/sntwk.2dfd3f37.png": "/MyWorks/static/media/sntwk.2dfd3f37.png",
     "static/media/telegramm-black.c25fde1a.svg": "/MyWorks/static/media/telegramm-black.c25fde1a.svg",
     "static/media/whatsapp-black.64e1450f.svg": "/MyWorks/static/media/whatsapp-black.64e1450f.svg"
@@ -27,6 +28,6 @@
     "static/js/runtime-main.7ae38d3e.js",
     "static/js/2.d9db4716.chunk.js",
     "static/css/main.9f8aba21.chunk.css",
-    "static/js/main.703475f1.chunk.js"
+    "static/js/main.b5061310.chunk.js"
   ]
 }
