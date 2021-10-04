@@ -13,7 +13,7 @@ const Home = () => {
             <h1>Hellow !</h1>
             <div>
                 <p>
-                    My name is Alexey. I am a junior fontend-developer.
+                    My name is Alexey. I am a junior frontend-developer.
                     I have collected all my works in one place especially for you. Click on the button below and you will see everything for yourself!
                 </p>
             </div>

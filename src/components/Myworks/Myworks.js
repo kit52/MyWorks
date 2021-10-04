@@ -8,6 +8,7 @@ import telegramm from "../../assets/icons/telegramm-black.svg"
 import Whatsapp from "../../assets/icons/whatsapp-black.svg"
 import mail from "../../assets/icons/mail-black.svg"
 import phone from "../../assets/icons/phone-call.svg"
+import portfolio from "../../assets/img/portfolio.png"
 const Item = (props) => {
     let arr = props.stack.map((item) =>
         <li key={`${item}` + Math.random()}>{item}</li>
@@ -24,7 +25,7 @@ const Item = (props) => {
                 </ul>
             </div>
         </div>
-        <div className={s.item__links}>
+        {props.code ? <div className={s.item__links}>
             <div className={s.item__code}>
                 Code <a className={s.item__codeLink} rel="noreferrer" href={props.code} target="_blank">HERE</a>
             </div>
@@ -32,7 +33,8 @@ const Item = (props) => {
             <a rel="noreferrer" className={s.item__btn} target="_blank" href={props.link}>
                 on Github pages <img src={rigth} className={s.item__btn_img} alt="rigth" />
             </a>
-        </div>
+        </div> : "В разработке"
+        }
     </div>
 }
 
@@ -50,6 +52,12 @@ const Myworks = () => {
             <Contact link={"tel:+79520015786"} img={phone} />
         </div>
         <div className={s.content}>
+            <Item img={"https://daco.vn/images/tin-tuc/Working/Todolist.png"}
+                stack={["- React", "- Redux", "- Redux-Thunk", "- Firebase", "- Firestore", "- JavaScript", "- Html", "- CSS"]} />
+            <Item img={portfolio}
+                link={"https://kit52.github.io/PotfolioArtem/"}
+                code={"https://github.com/kit52/PotfolioArtem"}
+                stack={["- React", "- Typed.js", "- React Carousel", "- JavaScript", "- Html", "- CSS"]} />
             <Item img={sntwk}
                 link={"https://test3-54cf0.web.app"}
                 code={"https://github.com/kit52/sntwk"}
@@ -58,6 +66,7 @@ const Myworks = () => {
                 code={"https://github.com/kit52/DIplom"}
                 link={"https://kit52.github.io/DIplom/"}
                 stack={["- React", "- JavaScript", "- Html", "- CSS"]} />
+
             <Item img={crossing}
                 code={"https://github.com/kit52/Crossings"}
                 link={"https://kit52.github.io/Crossings/"}
